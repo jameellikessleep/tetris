@@ -29,7 +29,7 @@ export const Tetriminos: { [key: string]: TetriminoDefinition } = {
       { x: -1, y: 0, z: 0 },
       { x: 1, y: 1, z: 0 }
     ],
-    color: '#ff9562',
+    color: '#11a232',
   },
   BlueRicky: {
     blocks: [
@@ -38,7 +38,7 @@ export const Tetriminos: { [key: string]: TetriminoDefinition } = {
       { x: -1, y: 0, z: 0 },
       { x: -1, y: 1, z: 0 }
     ],
-    color: '#5eaeff',
+    color: '#61dedb',
   },
   ClevelandZ: {
     blocks: [
@@ -47,7 +47,7 @@ export const Tetriminos: { [key: string]: TetriminoDefinition } = {
       { x: 0, y: -1, z: 0 },
       { x: -1, y: -1, z: 0 }
     ],
-    color: '#de5f75',
+    color: '#1f258a',
   },
   RhodeIslandZ: {
     blocks: [
@@ -56,7 +56,7 @@ export const Tetriminos: { [key: string]: TetriminoDefinition } = {
       { x: 0, y: -1, z: 0 },
       { x: 1, y: -1, z: 0 }
     ],
-    color: '#79dd53',
+    color: '#1f258a',
   },
   Hero: {
     blocks: [
