@@ -229,7 +229,7 @@ const Tetris: React.FC = () => {
             case 'R':
                 newBlocks = blocks.map(block => ({ x: block.y, y: -block.x, z: block.z }));
                 break;
-            case ' ':
+            case 'M':
                 hardDrop();
                 return;
             default:
